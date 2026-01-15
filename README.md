@@ -3,6 +3,9 @@
 ## Objective
 This project demonstrates a practical, enterprise-style cyber risk assessment for a cloud-based financial services application. The focus is on identifying key assets, credible threat scenarios, risk scoring, and mapping recommended controls to widely used frameworks (NIST CSF, CIS Controls).
 
+## Visual Artifacts
+- [Cyber Risk Heat Map (PDF)](diagrams/Cyber_Risk_Heat_Map.pdf)
+- 
 ## Contents
 - `executive_summary.md` – 1-page executive overview of key risks and priorities
 - `system_overview.md` – system scope, assets, data types, trust boundaries
