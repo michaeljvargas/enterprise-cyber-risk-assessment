@@ -1,1 +1,9 @@
+R-01,Credential stuffing,Lack of rate limiting and lockout controls,Authentication,4,5,20,Basic password rules,MFA enforcement + rate limiting + anomaly detection,High
+R-02,Account takeover,MFA optional for customers,Authentication,4,5,20,Password only,MFA required + device/IP risk checks,High
+R-03,Phishing of employees,Limited phishing training + inconsistent reporting process,Privileged access,3,5,15,Ad-hoc awareness training,Phishing simulations + reporting playbook + conditional access,Medium
+R-04,Cloud data exposure,Storage misconfiguration (public access),Customer PII + financial data,3,5,15,Manual review,Config policies + encryption + continuous posture monitoring,Medium
+R-05,Over-permissioned IAM,Broad admin roles without least privilege,Cloud IAM,3,5,15,Role-based access,Least privilege review + privileged access management,Medium
+R-06,Insufficient logging,Gaps in authentication and API logging,Monitoring & detection,4,4,16,Some system logs enabled,Central logging + audit trails + alerting use cases,High
+R-07,API abuse,Weak authz checks and lack of throttling,Transaction APIs,3,5,15,Token authentication,Authz validation + throttling + WAF rules,Medium
+R-08,Third-party breach,Vendor has access to customer data,Third-party integration,3,4,12,Contract clauses only,Vendor due diligence + SOC 2 review + least data sharing,Medium
 
